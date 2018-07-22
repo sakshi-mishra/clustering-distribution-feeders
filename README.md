@@ -7,6 +7,8 @@ Towards the end, scatter matrix plots are also demonstrated.
 
 ## How to Run
   ### Prerequisites 
+  You will need a python 3 interpreter with the following packages:
+  - jupyter notebook  
   - scikit learn
   - scipy
   - matplotlib
@@ -16,7 +18,10 @@ Towards the end, scatter matrix plots are also demonstrated.
   - cufflinks
   
   ### Running the code
-  - Clone (or download) the repository: 
+  1. Clone (or download) the repository: 
   
   `git clone https://github.com/sakshi-mishra/clustering-distribution-feeders.git`
+  
+  2. Open/Run the jupyter notebook [Clustering_of _distribution_feeders_with_Interactive_Visualizations.ipynb](Clustering_of_distribution_feeders_with_Interactive_Visualizations.ipynb)
+  
 
