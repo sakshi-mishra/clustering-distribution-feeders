@@ -22,6 +22,6 @@ Towards the end, scatter matrix plots are also demonstrated.
   
   `git clone https://github.com/sakshi-mishra/clustering-distribution-feeders.git`
   
-  2. Open/Run the jupyter notebook [Clustering_of _distribution_feeders_with_Interactive_Visualizations.ipynb](Clustering_of _distribution_feeders_with_Interactive_Visualizations.ipynb)
+  2. Open/Run the jupyter notebook [Clustering_of _distribution_feeders_with_Interactive_Visualizations.ipynb](Clustering_of_distribution_feeders_with_Interactive_Visualizations.ipynb)
   
 
