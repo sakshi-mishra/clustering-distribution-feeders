@@ -1,17 +1,17 @@
+#update the path in line #42
 
+import numpy as np
+import matplotlib.pyplot as plt
+import matplotlib.cm as cm
+
+import pandas as pd
+from pandas.plotting import scatter_matrix, parallel_coordinates
 
 from sklearn.cluster import KMeans
 from sklearn.metrics import silhouette_samples, silhouette_score
 from sklearn import preprocessing
 
 from scipy.spatial.distance import cdist
-
-import matplotlib.pyplot as plt
-import matplotlib.cm as cm
-import numpy as np
-
-import pandas as pd
-from pandas.tools.plotting import scatter_matrix, parallel_coordinates
 
 print(__doc__)
 import datetime
@@ -39,7 +39,7 @@ sosq = lambda x: sum(np.multiply(x,x))
 
 
 for fname in files:
-    df = pd.read_csv("D:\\OneDrive\\2017-2018\\Clustering_Analysis\\" + fname + ".csv",sep=",",header=0,low_memory=False)
+    df = pd.read_csv("<add path to your file>" + fname + ".csv",sep=",",header=0,low_memory=False)
     df = df.set_index('CIRCUIT')
         
     for rname in runs:
