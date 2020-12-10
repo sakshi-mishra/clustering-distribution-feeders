@@ -14,7 +14,7 @@ Towards the end, scatter matrix plots are also demonstrated.
   - matplotlib
   - pandas
   (optional - if you want to run 3-D visualization and interactive plot part)
-  - plotly
+  - chart_studio/plotly
   - cufflinks
   
   ### Running the code
